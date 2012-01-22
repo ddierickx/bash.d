@@ -10,7 +10,7 @@ alias mkcd='mkcd_f'
 alias ..='cd ..'
 alias ...='..;..'
 alias df='df -h'
-alias df='du -h'
+alias du='du -h'
 
 
 # single screen, mute sound...
