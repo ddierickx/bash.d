@@ -1,3 +1,4 @@
 #!/bin/bash
 echo "for f in $HOME/.bash.d/*.sh ; do source" ' $f ' "; done" >> $HOME/.bashrc
 echo "unset f" >> $HOME/.bashrc
+bash
