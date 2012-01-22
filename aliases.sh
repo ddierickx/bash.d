@@ -10,8 +10,6 @@ alias mkcd='mkcd_f'
 alias ..='cd ..'
 alias ...='..;..'
 alias df='df -h'
-alias du='du -h'
-
 
 # single screen, mute sound...
 alias goto-meeting='disper -s && amixer set Master mute'
