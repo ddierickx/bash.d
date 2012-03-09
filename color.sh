@@ -22,4 +22,5 @@ BMAG="\[\033[45m\]" # background magenta
 BCYN="\[\033[46m\]" # background cyan
 BWHT="\[\033[47m\]" # background white
 
-PS1="$FYEL${debian_chroot:+($debian_chroot)}\u$FWHT@$FYEL\h$FWHT:\w\$ $RS"
+#PS1="$FYEL${debian_chroot:+($debian_chroot)}\u$FWHT@$FYEL\h$FWHT:\w\$ $RS"
+PS1="$FGRN${debian_chroot:+($debian_chroot)}\u$FWHT@$FBLE\h$FWHT:\w\$ $RS"
