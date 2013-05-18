@@ -4,7 +4,7 @@
 
 function mkcd_f() { mkdir -p "$@" && cd "$@"; }
 
-alias ls='ls --color=auto'
+alias ls='ls -lah --color=auto'
 alias grep='grep --color=auto'
 alias mkcd='mkcd_f'
 alias ..='cd ..'
